@@ -9,12 +9,12 @@ public class bee1007 {
 
         int A, B, C, D, DIFERENCA;
 
-        Scanner entrada = new Scanner(System.in);
-
-        A = entrada.nextInt();
-        B = entrada.nextInt();
-        C = entrada.nextInt();
-        D = entrada.nextInt();
+        try (Scanner entrada = new Scanner(System.in)) {
+            A = entrada.nextInt();
+            B = entrada.nextInt();
+            C = entrada.nextInt();
+            D = entrada.nextInt();
+        }
 
         DIFERENCA = (A * B - C * D);
 

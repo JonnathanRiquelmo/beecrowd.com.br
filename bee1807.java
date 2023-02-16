@@ -1,7 +1,7 @@
 // 1807 - Triângulo Trinomial, a Vingança
 // https://www.beecrowd.com.br/judge/pt/problems/view/1807
 
-import java.util.*;
+import java.util.Scanner;
 
 public class bee1807 {
 	static long mod = 2147483647;
@@ -22,9 +22,9 @@ public class bee1807 {
 
 	public static void main(String[] args) {
 		long n = 0;
-		Scanner IN = new Scanner(System.in);
-		n = IN.nextLong();
-
+		try (Scanner IN = new Scanner(System.in)) {
+			n = IN.nextLong();
+		}
 		System.out.println(exp(3, n));
 	}
 
