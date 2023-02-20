@@ -3,7 +3,7 @@
 
 using System;
 
-class URI
+class bee1157
 {
 
     public static void Main(string[] args)

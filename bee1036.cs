@@ -4,7 +4,7 @@
 using System;
 using System.Globalization;
 
-class URI
+class bee1036
 {
     static void Main(string[] args)
     {
